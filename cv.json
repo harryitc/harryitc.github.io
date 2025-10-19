@@ -185,6 +185,10 @@
         "Phát triển các components và layouts tái sử dụng, tối ưu hiệu năng hiển thị và trải nghiệm người dùng.",
         "Phối hợp với team Backend để tích hợp API và đảm bảo luồng dữ liệu mượt mà trên toàn hệ thống."
       ],
+      "achievements": [
+        "Hơn 2+ năm kinh nghiệm cùng Angular trong việc xây dựng các ứng dụng web phức tạp và quy mô lớn.",
+        "Tạo ra 1 bố cục chuẩn hóa, đồng nhất các giao diện người dùng, giúp tăng tốc độ phát triển dự án, tránh lặp lại công việc và giảm thiểu lỗi giao diện."
+      ],
       "skills": {
         "Angular": "simple-icons:angular",
         "Next.js": "ri:nextjs-fill",
