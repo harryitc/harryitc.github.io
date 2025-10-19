@@ -7,13 +7,13 @@ const CV = await loadCV();
 const { education = [], certificates = [] } = CV;
 ---
 
-<Section className={Astro.props.className} title="教育背景">
+<Section className={Astro.props.className} title="Học vấn">
   <div class="space-y-5 print:space-y-3">
     {
       education.map(({ institution, startDate, endDate, area, url }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "目前";
+          endDate != null ? new Date(endDate).getFullYear() : "Hiện tại";
         const years = `${startYear} - ${endYear}`;
 
         return (
@@ -60,7 +60,7 @@ const { education = [], certificates = [] } = CV;
       certificates.length > 0 && (
         <div class="mt-8 print:mt-5">
           <h4 class="mb-4 text-base font-semibold text-skin-base print:mb-3 print:text-sm">
-            证书
+            Chứng chỉ
           </h4>
           <div class="space-y-4 print:space-y-2">
             {certificates.map(({ name, date, issuer, url }) => {

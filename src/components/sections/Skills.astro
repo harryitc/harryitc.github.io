@@ -8,7 +8,7 @@ const { skills = [] } = CV;
 
 // 按类别分组技能
 const skillsByCategory = skills.reduce((acc: Record<string, any[]>, skill: any) => {
-  const category = skill.category || '其他技术'
+  const category = skill.category || 'Công cụ khác'
   if (!acc[category]) {
     acc[category] = []
   }
@@ -17,11 +17,11 @@ const skillsByCategory = skills.reduce((acc: Record<string, any[]>, skill: any) 
 }, {})
 
 // 定义类别顺序 - 简化为5个主要类别
-const categoryOrder = ['核心技术', '前端技术', '后端技术', '工具平台', '其他技术']
+const categoryOrder = ['Ngôn ngữ', 'Front-end', 'Backend', 'Công cụ nền tảng', 'Công cụ khác']
 const sortedCategories = categoryOrder.filter(cat => skillsByCategory[cat])
 ---
 
-<Section className={Astro.props.className} title='技能'>
+<Section className={Astro.props.className} title='Kỹ năng'>
   <div class='space-y-5 print:space-y-3'>
     {sortedCategories.map(category => (
       <div>

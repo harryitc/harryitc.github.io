@@ -11,14 +11,16 @@ const { work = [] } = CV;
 <Section className={Astro.props.className} title="Kinh nghiệm làm việc">
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
+      const startMonth = (new Date(startDate).getMonth() + 1).toString().padStart(2, '0');
       const startYear = new Date(startDate).getFullYear()
-      const endYear = endDate != null ? new Date(endDate).getFullYear() : "至今"
+
+      const endYear = endDate != null ? new Date(endDate).getFullYear() : "Hiện tại"
 
       return (
         <li class="relative print:py-2">
           <div data-expanded="false" class="group relative grid pb-1 print:pb-0 transition-all print:grid-cols-1 print:gap-1 sm:grid-cols-12 sm:gap-8 md:gap-6 lg:hover:!opacity-100 expand-container">
             <header class="relative mt-1 text-xs font-semibold sm:col-span-2">
-              <time datetime={startDate} data-title={startDate}>{startYear}</time> - <time datetime={endDate} data-title={endDate}>{endYear}</time>
+              <time datetime={startDate} data-title={startDate}>{startMonth}/{startYear}</time> - <time datetime={endDate} data-title={endDate}>{endYear}</time>
             </header>
             <div class="relative flex flex-col pb-6 print:pb-0 before:-ml-6 sm:col-span-10 before:w-px print:before:hidden before:absolute before:bg-skin-muted before:h-full before:mt-2">
             <div class="absolute w-2 h-2 bg-skin-muted rounded-full mt-2 -translate-x-[1.71rem] ring print:hidden ring-skin-fill"></div>
@@ -47,7 +49,7 @@ const { work = [] } = CV;
               <div class="mt-4  print:gap-0 flex flex-col gap-4 print:text-xs text-sm">
                 {summary && (
                   <div class="flex flex-col gap-1">
-                    <h4>工作概述:</h4>
+                    <h4>Mô tả công việc:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {Array.isArray(summary) ? (
                         summary.map(item => (
@@ -65,7 +67,7 @@ const { work = [] } = CV;
                   <div class="expandable-inner">
                     {responsibilities && (
                       <div class="flex flex-col gap-1">
-                        <h4>主要职责:</h4>
+                        <h4>Nhiệm vụ chính:</h4>
                         <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                           {responsibilities.map(responsibility => (
                             <li>{responsibility}</li>
@@ -76,7 +78,7 @@ const { work = [] } = CV;
 
                     {achievements && (
                       <div class="flex flex-col gap-1 mt-4">
-                        <h4>主要成就:</h4>
+                        <h4>Thành tựu:</h4>
                         <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                           {achievements.map(achievement => (
                             <li>{achievement}</li>
@@ -90,7 +92,7 @@ const { work = [] } = CV;
                 </div>
 
                 <button class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex expand-button">
-                  <span class="expand-text">展开更多</span>
+                  <span class="expand-text">Mở rộng</span>
                   <Icon name="ri:arrow-up-s-line" class="w-4 h-4 group-hover/more:translate-y-0.5 transition-transform duration-200 ease-out" width={24} height={24}></Icon>
                 </button>
 
@@ -143,13 +145,13 @@ const { work = [] } = CV;
           expandableContent.style.maxHeight = `${scrollHeight}px`;
           fadeOverlay.style.opacity = '0';
           icon.style.transform = 'rotate(180deg)';
-          expandText.textContent = '收起';
+          expandText.textContent = 'Thu gọn';
         } else {
           // Collapsing
           expandableContent.style.maxHeight = '4rem';
           fadeOverlay.style.opacity = '1';
           icon.style.transform = 'rotate(0deg)';
-          expandText.textContent = '展开更多';
+          expandText.textContent = 'Mở rộng';
         }
       });
     });

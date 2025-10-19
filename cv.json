@@ -3,10 +3,10 @@
   "pageLayout": "two",
   "basics": {
     "name": "Phan Ngọc Cường",
-    "label": "Full-Stack Engineer",
+    "label": "Full-Stack Developer",
     "image": "/cuongdeptrai.jpg",
     "email": "harryitc.dev@gmail.com",
-    "url": "https://harryitc.github.io/portfolio",
+    "url": "https://github.com/harryitc/harryitc.github.io",
     "summary": "Lập trình viên Full-Stack 21 tuổi, chủ yếu làm việc với TypeScript và JavaScript, và thích làm việc với nhiều công nghệ khác nhau.",
     "theme": "red",
     "location": {
@@ -76,28 +76,6 @@
           "color": "green"
         }
       ],
-      "highlights": [
-        {
-          "emoji": "🏆",
-          "text": "华为开发者年度盛典获奖者",
-          "color": "gold"
-        },
-        {
-          "emoji": "📈",
-          "text": "1000+ 社区用户产品开发者",
-          "color": "blue"
-        },
-        {
-          "emoji": "💡",
-          "text": "开源项目贡献者",
-          "color": "green"
-        },
-        {
-          "emoji": "🎯",
-          "text": "全栈技术专家",
-          "color": "purple"
-        }
-      ],
       "quote": {
         "text": "Khi bạn thoải mái, mọi thứ sẽ rất dễ dàng. Khi bạn căng thẳng, bạn không thể làm việc chính xác.",
         "emoji": "💻",
@@ -127,46 +105,53 @@
     }
   },
   "images": {
-    "intro": "摄影是光影的艺术，图像是记忆的轮廓。",
+    "intro": "Hoạt động và thành tích nổi bật trong quá trình học tập và làm việc",
     "list": [
       {
-        "image": "https://i0.hdslb.com/bfs/article/6720a7355fd11b9666e2716cadf04e45480025691.jpg@90q_1e_1c.webp",
-        "alt": "南昌夕阳",
+        "image": "/activities/cer_hackathon_uit.jpg",
+        "alt": "Giấy chứng nhận tham gia Game UIT Hackathon 2022",
         "desc": "南昌晴天拍摄。2024.10.05"
       },
       {
-        "image": "https://i0.hdslb.com/bfs/article/82f680f56532d942f74d86801abf49ea480025691.jpg@90q_1e_1c.webp",
-        "alt": "我的猫咪",
-        "desc": "哈基米"
+        "image": "/activities/bang_khen_mhx2025.jpg",
+        "alt": "Mùa hè xanh 2025",
+        "desc": "Tham gia Mùa hè xanh 2025 tại mặt trận Đồng Tháp"
       },
       {
-        "image": "https://i0.hdslb.com/bfs/article/14e6ae3c368b0eddeeb2b5c338239486480025691.jpg@90q_1e_1c.webp",
-        "alt": "表情符号",
-        "desc": "确实如此"
+        "image": "/activities/du_an_tinh_nguyen_langbiang.JPG",
+        "alt": "Dự án tình nguyện Langbiang, Lâm Đồng.",
+        "desc": "Dự án tình nguyện Langbiang, Lâm Đồng."
       },
       {
-        "image": "https://i0.hdslb.com/bfs/openplatform/27518bea56d2d48dd7eb04216dabd3601fae630d.png@1e_1c.webp",
-        "alt": "AI 太好用了你知道吗",
-        "desc": "AI 太好用了你知道吗？"
+        "image": "/activities/chua_ky_quang2.JPG",
+        "alt": "Chùa Kỳ Quang 2",
+        "desc": "Tham gia hoạt động tình nguyện tại Chùa Kỳ Quang 2, TP.HCM"
+      },
+      {
+        "image": "/activities/clb_nhiep_anh.jpg",
+        "alt": "CLB Nhiếp Ảnh HUTECH",
+        "desc": "Giao lưu CLB Nhiếp Ảnh HUTECH"
+      },
+      {
+        "image": "/activities/doi_ngu_ttit.jpg",
+        "alt": "Đội ngũ TT.IT HUTECH",
+        "desc": "Các thành viên Trung tâm Quản lý Công nghệ Thông tin HUTECH - Tết 2024"
+      },
+      {
+        "image": "/activities/tro_giang.jpg",
+        "alt": "Trợ giảng Tin học Quốc tế tại trường THCS Huỳnh Văn Nghệ (2023 - 2024)",
+        "desc": "Trợ giảng Tin học Quốc tế tại trường THCS Huỳnh Văn Nghệ (2023 - 2024)"
       }
     ]
   },
   "education": [
     {
-      "institution": "南昌中学",
+      "institution": "Đại học Công nghệ TP.HCM (HUTECH)",
       "url": "",
-      "area": "普通学生",
-      "studyType": "全日制学生",
-      "startDate": "2025-9-01",
+      "area": "Sinh viên năm 4, Chuyên ngành Công nghệ phần mềm",
+      "studyType": "Kỹ sư phần mềm",
+      "startDate": "2022-9-01",
       "endDate": null
-    },
-    {
-      "institution": "南昌第二十四中学",
-      "url": "",
-      "area": "普通学生",
-      "studyType": "全日制学生",
-      "startDate": "2021-9-01",
-      "endDate": "2025-06-17"
     }
   ],
   "certificates": [
@@ -179,14 +164,14 @@
   ],
   "work": [
     {
-      "name": "Sgguo Development Team",
-      "position": "全栈开发工程师 & 核心设计师",
-      "location_type": "远程",
-      "location": "CN",
-      "url": "https://github.com/Sgguo-Development-Team",
+      "name": "Trung tâm Quản lý Công nghệ Thông tin HUTECH",
+      "position": "Frontend Developer",
+      "location_type": "Cộng tác viên",
+      "location": "TT.IT",
+      "url": "https://www.hutech.edu.vn/qlcntt",
       "startDate": "2023-03-01",
       "endDate": null,
-      "summary": "开发高可用性全栈项目，负责系统架构设计和技术选型，带领团队完成多个重要项目的开发和上线。作为星闪工具箱项目的核心开发者和设计师，获得华为开发者年度盛典卓越社区价值贡献奖。",
+      "summary": "",
       "highlights": [
         "🏆 星闪工具箱项目获得2024年华为开发者年度盛典卓越社区价值贡献奖",
         "📈 星闪工具箱累计1000+社区用户，50+开源项目生态支持",
@@ -194,69 +179,18 @@
         "🎯 主导数个关键项目的技术架构设计，提升系统整体性能和稳定性"
       ],
       "responsibilities": [
-        "作为星闪工具箱核心开发者，使用 Rust 和 Tauri 构建跨平台桌面应用。",
-        "负责项目UI/UX设计，打造直观易用的图形化界面，实现傍瓜式操作体验。",
-        "集成海思官方工具和开源方案，实现双剑合璧的烧录解决方案。",
-        "使用 Node.js 和 Golang 设计开发高性能后端服务，支持高并发访问。",
-        "负责数据库设计和优化，确保数据安全和访问效率。"
-      ],
-      "achievements": [
-        "星闪工具箱项目获得华为官方认可，荣获卓越社区价值贡献奖。",
-        "设计并实现一站式串口通信解决方案，支持固件管理、设备调试等多功能。",
-        "实现云端固件商店，支持开发者上传和用户一键下载，构建开源生态。",
-        "设计并实现微服务架构，提升系统可扩展性和维护性。",
-        "实现了云盘和验证码系统，提升用户体验和数据安全性。"
+        "Xây dựng và thiết kế kiến trúc Front-End gốc (base source) bằng Angular, đồng thời sử dụng Next.js cho một số dự án nội bộ, làm nền tảng để các nhóm khác phát triển và mở rộng.",
+        "Thiết kế và phát triển hệ thống UI/UX thống nhất, đảm bảo giao diện thân thiện, hiện đại và có tính nhất quán giữa các dự án.",
+        "Phát triển các components và layouts tái sử dụng, tối ưu hiệu năng hiển thị và trải nghiệm người dùng.",
+        "Phối hợp với team Backend để tích hợp API và đảm bảo luồng dữ liệu mượt mà trên toàn hệ thống."
       ],
       "skills": {
-        "PHP": "simple-icons:php",
-        "Node": "ri:nodejs-line",
-        "Golang": "simple-icons:go",
+        "Angular": "simple-icons:angular",
         "Next.js": "ri:nextjs-fill",
-        "React": "mdi:react",
-        "SQL": "simple-icons:mysql",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github",
         "NestJS": "simple-icons:nestjs",
-        "Vue": "mdi:vuejs"
-      }
-    },
-    {
-      "name": "Riddle Town Team",
-      "position": "全栈开发工程师",
-      "location_type": "远程",
-      "location": "CN",
-      "url": "https://rth2.gcxstudio.cn",
-      "startDate": "2023-01-01",
-      "endDate": "2024-02-11",
-      "summary": "负责页面设计和账户系统开发，主导前端架构设计和用户体验优化。参与产品需求分析和技术方案制定，确保项目按时交付。",
-      "highlights": [
-        "独立完成95%的项目开发工作，包括前端页面、后端接口和数据库设计。",
-        "成功建立一套完整的用户管理和游戏系统，吸引超过1000名用户参与。"
-      ],
-      "responsibilities": [
-        "设计并开发响应式页面，确保在不同设备上的良好用户体验。",
-        "优化前后端数据交互，提升页面加载速度和用户体验。",
-        "实现用户权限管理和数据安全防护机制。"
-      ],
-      "achievements": [
-        "建立项目文档和部署流程，确保项目可维护性和扩展性。",
-        "实现了类 Windows 风格的用户界面，提升用户操作体验。"
-      ],
-      "skills": {
-        "HTML": "simple-icons:html5",
-        "CSS": "ri:css3-fill",
-        "JavaScript": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
-        "Vite": "simple-icons:vite",
-        "Node": "ri:nodejs-line",
-        "Docker": "mdi:docker",
-        "WordPress": "ri:wordpress-fill",
-        "Astro": "simple-icons:astro",
-        "SQL": "simple-icons:mysql",
-        "Tailwind": "mdi:tailwind",
-        "React": "mdi:react",
-        "GitHub": "mdi:github",
-        "Git": "mdi:git"
+        "Docker": "simple-icons:docker",
+        "Redis": "simple-icons:redis",
+        "Figma": "simple-icons:figma"
       }
     }
   ],
@@ -265,217 +199,217 @@
       "name": "HTML",
       "icon": "simple-icons:html5",
       "level": "中级",
-      "category": "前端技术",
+      "category": "Front-end",
       "keywords": ["Web开发", "前端"]
     },
     {
       "name": "CSS",
       "icon": "ri:css3-fill",
       "level": "中级",
-      "category": "前端技术",
+      "category": "Front-end",
       "keywords": ["Web开发", "前端", "响应式设计"]
     },
     {
       "name": "JavaScript",
       "icon": "simple-icons:javascript",
       "level": "专家级",
-      "category": "核心技术",
+      "category": "Ngôn ngữ",
       "keywords": ["Web开发", "前端", "后端", "全栈"]
     },
     {
       "name": "Tailwind",
       "icon": "mdi:tailwind",
       "level": "中级",
-      "category": "前端技术",
+      "category": "Front-end",
+      "keywords": ["Web开发", "前端", "CSS框架", "响应式设计"]
+    },
+    {
+      "name": "Sass",
+      "icon": "mdi:sass",
+      "level": "中级",
+      "category": "Front-end",
+      "keywords": ["Web开发", "前端", "CSS框架", "响应式设计"]
+    },
+    {
+      "name": "Angular",
+      "icon": "mdi:angular",
+      "level": "中级",
+      "category": "Front-end",
       "keywords": ["Web开发", "前端", "CSS框架", "响应式设计"]
     },
     {
       "name": "TypeScript",
       "icon": "simple-icons:typescript",
       "level": "专家级",
-      "category": "核心技术",
+      "category": "Ngôn ngữ",
       "keywords": ["Web开发", "前端", "后端", "JavaScript超集"]
     },
     {
       "name": "Node",
       "icon": "ri:nodejs-line",
       "level": "中级",
-      "category": "后端技术",
+      "category": "Backend",
       "keywords": ["Web开发", "后端", "JavaScript", "服务器"]
     },
     {
       "name": "SQL",
       "icon": "simple-icons:mysql",
       "level": "中级",
-      "category": "后端技术",
+      "category": "Backend",
       "keywords": ["数据库", "SQL", "数据存储", "后端"]
     },
     {
       "name": "MongoDB",
       "icon": "simple-icons:mongodb",
       "level": "中级",
-      "category": "后端技术",
+      "category": "Backend",
       "keywords": ["数据库", "文件", "数据存储", "后端"]
     },
     {
       "name": "Git",
       "icon": "mdi:git",
       "level": "中级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["版本控制", "协作", "源代码"]
     },
     {
       "name": "GitHub",
       "icon": "mdi:github",
       "level": "专家级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["版本控制", "协作", "源代码", "Git"]
     },
     {
       "name": "Next.js",
       "icon": "ri:nextjs-line",
       "level": "中级",
-      "category": "前端技术",
+      "category": "Front-end",
       "keywords": ["Web开发", "前端", "React框架", "SSR", "静态生成"]
     },
     {
       "name": "React",
       "icon": "mdi:react",
       "level": "专家级",
-      "category": "前端技术",
-      "keywords": ["Web开发", "前端", "JavaScript库", "UI"]
-    },
-    {
-      "name": "Vue",
-      "icon": "mdi:vuejs",
-      "level": "中级",
-      "category": "前端技术",
+      "category": "Front-end",
       "keywords": ["Web开发", "前端", "JavaScript库", "UI"]
     },
     {
       "name": "Docker",
       "icon": "mdi:docker",
       "level": "中级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["虚拟环境", "后端"]
     },
     {
       "name": "NestJS",
       "icon": "simple-icons:nestjs",
       "level": "中级",
-      "category": "后端技术",
+      "category": "Backend",
       "keywords": ["Web开发", "后端", "IOC"]
-    },
-    {
-      "name": "Vite",
-      "icon": "simple-icons:vite",
-      "level": "中级",
-      "category": "工具平台",
-      "keywords": ["Web开发", "前端", "构建工具"]
     },
     {
       "name": "WordPress",
       "icon": "ri:wordpress-fill",
       "level": "中级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["PHP", "全栈", "前端"]
     },
     {
-      "name": "Golang",
-      "icon": "simple-icons:go",
+      "name": "Figma",
+      "icon": "simple-icons:figma",
+      "level": "中级",
+      "category": "Công cụ nền tảng",
+      "keywords": ["PHP", "全栈", "前端"]
+    },
+    {
+      "name": "C#",
+      "icon": "simple-icons:csharp",
       "level": "初级",
-      "category": "核心技术",
-      "keywords": ["后端", "云服务"]
+      "category": "Ngôn ngữ",
+      "keywords": ["后端", "桌面开发", "游戏开发"]
+    },
+    {
+      "name": "C++",
+      "icon": "simple-icons:cplusplus",
+      "level": "初级",
+      "category": "Ngôn ngữ",
+      "keywords": ["后端", "系统编程", "游戏开发"]
+    },
+    {
+      "name": "C",
+      "icon": "simple-icons:c",
+      "level": "初级",
+      "category": "Ngôn ngữ",
+      "keywords": ["系统编程", "嵌入式", "底层开发"]
+    },
+    {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "初级",
+      "category": "Ngôn ngữ",
+      "keywords": ["后端", "数据分析", "AI", "自动化"]
     },
     {
       "name": "Astro",
       "icon": "simple-icons:astro",
       "level": "专家级",
-      "category": "前端技术",
+      "category": "Front-end",
       "keywords": ["Web开发", "前端", "SSR", "静态生成", "多主题"]
-    },
-    {
-      "name": "PHP",
-      "icon": "simple-icons:php",
-      "level": "中级",
-      "category": "核心技术",
-      "keywords": ["Web开发", "后端", "全栈"]
     },
     {
       "name": "Nginx",
       "icon": "simple-icons:nginx",
       "level": "中级",
-      "category": "后端技术",
+      "category": "Backend",
       "keywords": ["Web开发", "后端", "Web服务器"]
     },
     {
       "name": "Tauri",
       "icon": "simple-icons:tauri",
       "level": "中级",
-      "category": "其他技术",
+      "category": "Công cụ khác",
       "keywords": ["桌面应用", "Rust", "Web视图", "跨平台"]
-    },
-    {
-      "name": "Rust",
-      "icon": "simple-icons:rust",
-      "level": "中级",
-      "category": "核心技术",
-      "keywords": ["桌面应用", "Web视图", "系统编程", "高性能"]
     },
     {
       "name": "Socket.IO",
       "icon": "simple-icons:socketdotio",
       "level": "初级",
-      "category": "后端技术",
+      "category": "Backend",
       "keywords": ["实时通信", "Websocket"]
     },
     {
       "name": "Electron",
       "icon": "simple-icons:electron",
       "level": "初级",
-      "category": "其他技术",
+      "category": "Công cụ khác",
       "keywords": ["桌面应用", "Web视图"]
-    },
-    {
-      "name": "Shell",
-      "icon": "simple-icons:shell",
-      "level": "中级",
-      "category": "工具平台",
-      "keywords": ["脚本", "自动化"]
     },
     {
       "name": "Linux",
       "icon": "simple-icons:linux",
       "level": "中级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["OS", "脚本", "自动化"]
     },
     {
       "name": "Vercel",
       "icon": "simple-icons:vercel",
       "level": "中级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["无服务器", "静态站点托管"]
     },
     {
       "name": "Netlify",
       "icon": "simple-icons:netlify",
       "level": "中级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["无服务器", "静态站点托管"]
-    },
-    {
-      "name": "Tencent Cloud",
-      "icon": "simple-icons:tencentqq",
-      "level": "中级",
-      "category": "工具平台",
-      "keywords": ["云服务"]
     },
     {
       "name": "Cloudflare Edge Functions",
       "icon": "simple-icons:cloudflare",
       "level": "专家级",
-      "category": "工具平台",
+      "category": "Công cụ nền tảng",
       "keywords": ["无服务器", "边缘计算"]
     }
   ],
@@ -535,8 +469,8 @@
         "🔧 通过 JSON 配置文件轻松自定义内容",
         "💻 个人独立设计开发，完全开源免费"
       ],
-      "url": "https://www.gcxstudio.cn",
-      "github": "https://github.com/MiraHikari/portfolio"
+      "url": "https://harryitc.github.io",
+      "github": "https://github.com/harryitc/portfolio"
     },
     {
       "name": "Cloudflare Vmail",
