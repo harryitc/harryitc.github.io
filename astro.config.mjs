@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import astroIcon from 'astro-icon';
 import playformCompress from "@playform/compress";
-import { siteConfig } from "@/config";
+import { siteConfig } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
