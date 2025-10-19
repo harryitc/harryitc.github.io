@@ -3,11 +3,12 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import astroIcon from 'astro-icon';
 import playformCompress from "@playform/compress";
+import { siteConfig } from "@/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://harryitc.github.io',
-  base: '/', // Rất quan trọng
+  site: siteConfig.url,
+  base: siteConfig.base,
   integrations: [
     tailwind(),
     astroIcon({

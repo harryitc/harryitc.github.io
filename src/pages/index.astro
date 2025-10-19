@@ -7,6 +7,7 @@ import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Tail from "@/components/sections/Tail.astro";
+import Tools from "@/components/sections/Tools.astro";
 
 import ThemeSwitch from "@/components/ui/ThemeSwitch.astro";
 import Education from "@/components/sections/Education.astro";
@@ -31,6 +32,7 @@ const { name, label } = basics;
       >
         <Hero />
         <About />
+        <Tools className="print:hidden" />
         <ThemeSwitch />
       </div>
 
@@ -57,10 +59,11 @@ const { name, label } = basics;
         >
           <Hero />
           <About />
+          <hr>
+          <div class="border-t border-solid border-skin-hue my-4"></div>
           <ThemeSwitch />
+          <Tools className="print:hidden text-sm" />
         </div>
-
-
         <div
           class="slide-enter-content space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0"
         >
