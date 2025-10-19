@@ -181,6 +181,7 @@
       "responsibilities": [
         "Xây dựng và thiết kế kiến trúc Front-End gốc (base source) bằng Angular, đồng thời sử dụng Next.js cho một số dự án nội bộ, làm nền tảng để các nhóm khác phát triển và mở rộng.",
         "Thiết kế và phát triển hệ thống UI/UX thống nhất, đảm bảo giao diện thân thiện, hiện đại và có tính nhất quán giữa các dự án.",
+        "Vẽ giao diện mẫu và prototype bằng Figma để trình bày ý tưởng thiết kế cho Leader trước khi triển khai phát triển.",
         "Phát triển các components và layouts tái sử dụng, tối ưu hiệu năng hiển thị và trải nghiệm người dùng.",
         "Phối hợp với team Backend để tích hợp API và đảm bảo luồng dữ liệu mượt mà trên toàn hệ thống."
       ],
