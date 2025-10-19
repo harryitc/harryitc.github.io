@@ -1,16 +1,11 @@
 ## Portfolio CV
 
-![preview](https://github.com/user-attachments/assets/44c47034-06e4-412a-b9dd-014593b32215)
+![preview](/public/portfolio.png)
 
 ## 📄 About
 
-This is my personal portfolio/CV project built with Astro. It's designed to be beautiful and fully responsive.
+This is my personal portfolio/CV project built with Astro (Template [**Smilesharks**](https://github.com/Smilesharks/dev-portfolio)).
 
-Special thanks to the original [**dev-portfolio**](https://github.com/Smilesharks/dev-portfolio) project for inspiration.
-
-I use iconify instead of SVG icons for better dev experience.
-
-Thanks for antfu's cool animations.
 
 ## 🛠️ Stack
 
@@ -23,9 +18,6 @@ Thanks for antfu's cool animations.
 
 ## 🚀 Getting Started
 
-### 0. One-click to deploy on Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MiraHikari/portfolio&project-name=portfolio&repository-name=portfolio)
-
 Modify the `cv.json` file to create your own Portfolio/CV.
 
 ### 1. Use this Repo as an Astro Project Template
@@ -34,15 +26,8 @@ Modify the `cv.json` file to create your own Portfolio/CV.
 
 # Initialize the project
 ```bash
-pnpm create astro@latest --template MiraHikari/portfolio
-```
-
-### 1-1. Clone the repo
-If you don't want to use the template command, you can clone this repo and install the dependencies.
-
-```bash
-git clone https://github.com/MiraHikari/portfolio.git
-cd portfolio
+git clone https://github.com/harryitc/harryitc.github.io.git
+cd harryitc.github.io
 pnpm install
 ```
 
@@ -54,7 +39,7 @@ Edit the `cv.json` file to create your own Portfolio/CV.
 
 ```bash
 # Enjoy the results
-pnpm dev
+pnpm run dev
 ```
 1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to view the result 🚀
 
@@ -68,9 +53,3 @@ Change the data-theme of `cv.json` and choose one of the colour themes defined i
 | ⚙️  | `dev` or `start` | Launches a local development server at `localhost:4321`.                   |
 | ⚙️  | `build`         | Checks for errors and creates a production build in `./dist/`. |
 | ⚙️  | `preview`       | Local preview at `localhost:4321`                                       |
-| 📦  | `deploy:vercel`         | Deploy on Vercel.                           |
-| 📦 | `deploy:cloudflare`       | Deploy on Cloudflare, please run `wrangler login` first.                                           |                                |
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
