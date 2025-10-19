@@ -23,10 +23,6 @@
         "url": "https://github.com/harryitc"
       }
     ],
-    "beian": {
-      "mint": "赣ICP备2021005460号-1",
-      "police": "赣公网安备 36010302000349号"
-    },
     "about": {
       "personalInfo": [
         {
@@ -50,7 +46,7 @@
         {
           "emoji": "💼",
           "label": "Kinh nghiệm",
-          "value": "3+ năm phát triển",
+          "value": "2+ năm phát triển",
           "color": "orange"
         }
       ],
@@ -156,10 +152,22 @@
   ],
   "certificates": [
     {
-      "name": "TCCP - 高级云架构工程师",
-      "date": "2023-05-01",
-      "url": "",
-      "issuer": "Tencent Cloud"
+      "name": "Networking Basics",
+      "date": "2025-09-20",
+      "url": "https://www.credly.com/badges/3a7155a5-723e-4fb9-9d06-1511390f06c3/public_url",
+      "issuer": "Cisco Networking Academy"
+    },
+    {
+      "name": "JavaScript Essentials 1",
+      "date": "2025-09-29",
+      "url": "https://www.credly.com/badges/2951c8a9-eac6-485e-a563-2ae4e66bf346/public_url",
+      "issuer": "Cisco Networking Academy"
+    },
+    {
+      "name": "JavaScript Essentials 2",
+      "date": "2025-10-14",
+      "url": "https://www.credly.com/badges/95716af2-e2e5-4f69-8a03-657c76a0c22f/public_url",
+      "issuer": "Cisco Networking Academy"
     }
   ],
   "work": [
@@ -183,11 +191,13 @@
         "Thiết kế và phát triển hệ thống UI/UX thống nhất, đảm bảo giao diện thân thiện, hiện đại và có tính nhất quán giữa các dự án.",
         "Vẽ giao diện mẫu và prototype bằng Figma để trình bày ý tưởng thiết kế cho Leader trước khi triển khai phát triển.",
         "Phát triển các components và layouts tái sử dụng, tối ưu hiệu năng hiển thị và trải nghiệm người dùng.",
-        "Phối hợp với team Backend để tích hợp API và đảm bảo luồng dữ liệu mượt mà trên toàn hệ thống."
+        "Phối hợp với team Backend để tích hợp API và đảm bảo luồng dữ liệu mượt mà trên toàn hệ thống.",
+        "Xây dựng website viết tài liệu kỹ thuật và hướng dẫn sử dụng về phần mềm được phát triển nội bộ."
       ],
       "achievements": [
         "Hơn 2+ năm kinh nghiệm cùng Angular trong việc xây dựng các ứng dụng web phức tạp và quy mô lớn.",
-        "Tạo ra 1 bố cục chuẩn hóa, đồng nhất các giao diện người dùng, giúp tăng tốc độ phát triển dự án, tránh lặp lại công việc và giảm thiểu lỗi giao diện."
+        "Tạo ra 1 bố cục chuẩn hóa, đồng nhất các giao diện người dùng, giúp tăng tốc độ phát triển dự án, tránh lặp lại công việc và giảm thiểu lỗi giao diện.",
+        "Có 1 nơi để lưu trữ các tài liệu kỹ thuật, hướng dẫn sử dụng và quy trình phát triển, giúp dễ dàng tra cứu trong nội bộ và chia sẻ hướng dẫn cho người dùng cuối."
       ],
       "skills": {
         "Angular": "simple-icons:angular",
@@ -195,7 +205,8 @@
         "NestJS": "simple-icons:nestjs",
         "Docker": "simple-icons:docker",
         "Redis": "simple-icons:redis",
-        "Figma": "simple-icons:figma"
+        "Figma": "simple-icons:figma",
+        "Docusaurus": "simple-icons:docusaurus"
       }
     }
   ],
@@ -210,6 +221,13 @@
     {
       "name": "CSS",
       "icon": "ri:css3-fill",
+      "level": "中级",
+      "category": "Front-end",
+      "keywords": ["Web开发", "前端", "响应式设计"]
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "simple-icons:bootstrap",
       "level": "中级",
       "category": "Front-end",
       "keywords": ["Web开发", "前端", "响应式设计"]
@@ -264,15 +282,29 @@
       "keywords": ["数据库", "SQL", "数据存储", "后端"]
     },
     {
-      "name": "MongoDB",
-      "icon": "simple-icons:mongodb",
+      "name": "PostgreSQL",
+      "icon": "simple-icons:postgresql",
       "level": "中级",
       "category": "Backend",
-      "keywords": ["数据库", "文件", "数据存储", "后端"]
+      "keywords": ["数据库", "SQL", "数据存储", "后端"]
     },
     {
       "name": "Git",
       "icon": "mdi:git",
+      "level": "中级",
+      "category": "Công cụ nền tảng",
+      "keywords": ["版本控制", "协作", "源代码"]
+    },
+    {
+      "name": "Supabase",
+      "icon": "simple-icons:supabase",
+      "level": "中级",
+      "category": "Công cụ nền tảng",
+      "keywords": ["版本控制", "协作", "源代码"]
+    },
+    {
+      "name": "N8N",
+      "icon": "simple-icons:n8n",
       "level": "中级",
       "category": "Công cụ nền tảng",
       "keywords": ["版本控制", "协作", "源代码"]
@@ -327,6 +359,13 @@
       "keywords": ["PHP", "全栈", "前端"]
     },
     {
+      "name": "Docusaurus",
+      "icon": "simple-icons:docusaurus",
+      "level": "中级",
+      "category": "Front-end",
+      "keywords": ["PHP", "全栈", "前端"]
+    },
+    {
       "name": "C#",
       "icon": "simple-icons:csharp",
       "level": "初级",
@@ -362,36 +401,15 @@
       "keywords": ["Web开发", "前端", "SSR", "静态生成", "多主题"]
     },
     {
-      "name": "Nginx",
-      "icon": "simple-icons:nginx",
-      "level": "中级",
-      "category": "Backend",
-      "keywords": ["Web开发", "后端", "Web服务器"]
-    },
-    {
-      "name": "Tauri",
-      "icon": "simple-icons:tauri",
-      "level": "中级",
-      "category": "Công cụ khác",
-      "keywords": ["桌面应用", "Rust", "Web视图", "跨平台"]
-    },
-    {
-      "name": "Socket.IO",
-      "icon": "simple-icons:socketdotio",
-      "level": "初级",
-      "category": "Backend",
-      "keywords": ["实时通信", "Websocket"]
-    },
-    {
-      "name": "Electron",
-      "icon": "simple-icons:electron",
-      "level": "初级",
-      "category": "Công cụ khác",
-      "keywords": ["桌面应用", "Web视图"]
-    },
-    {
       "name": "Linux",
       "icon": "simple-icons:linux",
+      "level": "中级",
+      "category": "Công cụ nền tảng",
+      "keywords": ["OS", "脚本", "自动化"]
+    },
+    {
+      "name": "Redis",
+      "icon": "simple-icons:redis",
       "level": "中级",
       "category": "Công cụ nền tảng",
       "keywords": ["OS", "脚本", "自动化"]
@@ -402,20 +420,6 @@
       "level": "中级",
       "category": "Công cụ nền tảng",
       "keywords": ["无服务器", "静态站点托管"]
-    },
-    {
-      "name": "Netlify",
-      "icon": "simple-icons:netlify",
-      "level": "中级",
-      "category": "Công cụ nền tảng",
-      "keywords": ["无服务器", "静态站点托管"]
-    },
-    {
-      "name": "Cloudflare Edge Functions",
-      "icon": "simple-icons:cloudflare",
-      "level": "专家级",
-      "category": "Công cụ nền tảng",
-      "keywords": ["无服务器", "边缘计算"]
     }
   ],
   "languages": [
