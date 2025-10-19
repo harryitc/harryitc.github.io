@@ -437,74 +437,38 @@
   ],
   "projects": [
     {
-      "name": "星闪工具箱 (NearLink Toolbox)",
+      "name": "Demo Authen with TOTP",
       "image": {
-        "url": "https://i0.hdslb.com/bfs/openplatform/498f86fac03393b2f8c0b26cd95f0e88962e8a7c.webp",
+        "url": "/projects/demo-authenticator-with-totp.png",
         "position": "container"
       },
       "isActive": true,
-      "description": "一站式串口通信解决方案，获得华为开发者年度盛典卓越社区价值贡献奖的开源项目",
+      "description": "Mô phỏng và hiểu được cách hoạt động của TOTP, giống với ứng dụng Google Authenticator.",
       "highlights": [
-        "🏆 获得2024年华为开发者年度盛典卓越社区价值贡献奖",
-        "🚀 基于 Rust 和 Tauri 构建，提供卓越性能和跨平台支持",
-        "⚡ 集成海思官方工具和开源 ws63flash，双剑合璧的烧录方案",
-        "�  1000+ 社区用户，50+ 开源项目生态支持",
-        "🎯 傻瓜式操作，图形化界面让烧录变得简单直观"
+        "🔐 Hiểu rõ về thuật toán TOTP và cách nó tạo mã xác thực một lần dựa trên thời gian.",
+        "📱 Giao diện người dùng đơn giản và trực quan, giúp người dùng dễ dàng thêm và quản lý các tài khoản.",
+        "⚙️ Mô phỏng được nhiều tài khoản với từng mã TOTP riêng biệt.",
+        "💾 Lưu trữ mật khẩu được băm (hash) thay vì văn bản thuần túy (plain text)."
       ],
-      "url": "https://nearlink.sgguo.com/",
-      "github": "https://github.com/Sgguo-Development-Team"
+      "url": "https://github.com/harryitc/2fa-java-gui",
+      "github": "https://github.com/harryitc"
     },
     {
-      "name": "Portfolio CV",
+      "name": "N8N with Docker",
       "image": {
-        "url": "https://i0.hdslb.com/bfs/openplatform/e49d4b93b2aaec50944947d36f5cf545a2718200.jpg@1e_1c.webp",
+        "url": "/projects/n8n_docker.png",
         "position": "container"
       },
       "isActive": true,
-      "description": "基于 Astro 构建的个人简历项目，完全由个人独立开发",
+      "description": "Thiết lập môi trường để có thể chạy được n8n một cách nhanh chóng và dễ dàng thông qua Docker.",
       "highlights": [
-        "🎨 支持多种主题色彩（红、蓝、绿、赛博朋克、粉色）",
-        "📱 完全响应式设计，适配各种设备尺寸",
-        "⚡ 基于 Astro 构建，性能卓越，SEO 友好",
-        "🔧 通过 JSON 配置文件轻松自定义内容",
-        "💻 个人独立设计开发，完全开源免费"
+        "🐳 Sử dụng Docker để triển khai n8n, giúp đơn giản hóa quá trình cài đặt và cấu hình.",
+        "⚙️ Cấu hình n8n với các biến môi trường để tùy chỉnh theo nhu cầu sử dụng.",
+        "🔄 Hỗ trợ khởi động lại và quản lý container dễ dàng thông qua Docker Compose.",
+        "📂 Lưu trữ dữ liệu và cấu hình của n8n trên ổ đĩa cục bộ để đảm bảo tính bền vững của dữ liệu."
       ],
-      "url": "https://harryitc.github.io",
-      "github": "https://github.com/harryitc/portfolio"
-    },
-    {
-      "name": "Cloudflare Vmail",
-      "image": {
-        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
-        "position": "container",
-        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
-      },
-      "isActive": true,
-      "description": "一个开源的临时邮箱工具，完全基于 Cloudflare。灵感来自 oiov/vmail",
-      "highlights": [
-        "🎯 隐私友好，无需注册，开箱即用",
-        "✨ 支持保存密码和找回邮箱地址",
-        "😄 支持多个域名后缀",
-        "🚀 100% 开源，完全基于 Cloudflare。"
-      ],
-      "url": "https://mirahikari.xyz",
-      "github": "https://github.com/MiraHikari/cloudflare-vmail"
-    },
-    {
-      "name": "Riddle Town Hunt 2",
-      "image": {
-        "url": "https://i0.hdslb.com/bfs/openplatform/02bd8d56f7f6c3dc6c59efbfba460958269e57b5.png@1e_1c.webp",
-        "position": "background"
-      },
-      "isActive": false,
-      "description": "以 Puzzle Hunt 形式举办的公开解密活动。",
-      "highlights": [
-        "👌 超过1000人参与，系统运行正常",
-        "😮‍ 使用无头 CMS：WordPress 存储和管理内容，动态渲染页面",
-        "😊 类 Windows 界面",
-        "💕 基于 Astro 构建"
-      ],
-      "url": "https://rth2.gcxstudio.cn/"
+      "url": "https://github.com/harryitc/n8n-docker",
+      "github": "https://github.com/harryitc"
     }
   ]
 }
