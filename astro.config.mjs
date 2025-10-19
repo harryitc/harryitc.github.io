@@ -6,6 +6,8 @@ import playformCompress from "@playform/compress";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://harryitc.github.io',
+  base: '/', // Rất quan trọng
   integrations: [
     tailwind(),
     astroIcon({
