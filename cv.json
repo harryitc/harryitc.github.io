@@ -6,6 +6,7 @@
     "label": "Full-Stack Developer",
     "image": "/cuongdeptrai.jpg",
     "email": "harryitc.dev@gmail.com",
+    "phone": "0363707403",
     "url": "https://github.com/harryitc/harryitc.github.io",
     "summary": "Lập trình viên Full-Stack 21 tuổi, chủ yếu làm việc với TypeScript và JavaScript, và thích làm việc với nhiều công nghệ khác nhau.",
     "theme": "red",
@@ -132,11 +133,6 @@
         "image": "/activities/doi_ngu_ttit.jpg",
         "alt": "Đội ngũ TT.IT HUTECH",
         "desc": "Các thành viên Trung tâm Quản lý Công nghệ Thông tin HUTECH - Tết 2024"
-      },
-      {
-        "image": "/activities/tro_giang.jpg",
-        "alt": "Trợ giảng Tin học Quốc tế tại trường THCS Huỳnh Văn Nghệ (2023 - 2024)",
-        "desc": "Trợ giảng Tin học Quốc tế tại trường THCS Huỳnh Văn Nghệ (2023 - 2024)"
       }
     ]
   },
@@ -172,10 +168,10 @@
   ],
   "work": [
     {
-      "name": "Trung tâm Quản lý Công nghệ Thông tin HUTECH",
+      "name": "HUTECH University",
       "position": "Frontend Developer",
       "location_type": "Cộng tác viên",
-      "location": "TT.IT",
+      "location": "Trung tâm Quản lý Công nghệ Thông tin HUTECH",
       "url": "https://www.hutech.edu.vn/qlcntt",
       "startDate": "2023-03-01",
       "endDate": null,
